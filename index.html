@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Train like a champion with HBX Sports Performance. Speed. Strength. Results.">
+  <title>HBX Sports Performance</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Montserrat', sans-serif; background-color: #121212; color: #fff; line-height: 1.6; }
+    header {
+      background: url('https://static.wixstatic.com/media/8c4806_7e1578c924e84e8e99ce170134c47cf4~mv2.jpg') center/cover no-repeat;
+      min-height: 90vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 2rem;
+    }
+    header h1 { font-size: 3rem; color: #fff; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); }
+    header p { font-size: 1.5rem; margin: 1rem 0; color: #ddd; }
+    .cta {
+      background: #e21b1b;
+      padding: 0.8rem 1.5rem;
+      color: #fff;
+      font-weight: bold;
+      text-decoration: none;
+      border-radius: 30px;
+      margin-top: 1rem;
+      transition: background 0.3s ease;
+    }
+    .cta:hover { background: #c41616; }
+    section { padding: 4rem 1rem; max-width: 1140px; margin: auto; }
+    .section-title { font-size: 2.2rem; margin-bottom: 2rem; border-left: 6px solid #e21b1b; padding-left: 1rem; }
+    .services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 2rem;
+    }
+    .service, .about-box { background: #1f1f1f; padding: 1.5rem; border-radius: 10px; }
+    .service h3, .about-box h3 { color: #e21b1b; }
+    .testimonials { background: #181818; padding: 2rem; border-radius: 10px; }
+    .testimonial { background: #222; padding: 1rem; border-left: 4px solid #e21b1b; margin-bottom: 1.5rem; }
+    .video-embed { width: 100%; aspect-ratio: 16/9; margin-top: 2rem; border: none; border-radius: 10px; }
+    .map-container iframe { width: 100%; height: 300px; border: 0; border-radius: 10px; }
+    #contact { text-align: center; }
+    footer { background: #000; color: #aaa; text-align: center; padding: 1.5rem 1rem; font-size: 0.9rem; margin-top: 2rem; }
+    @media (max-width: 768px) {
+      header h1 { font-size: 2.2rem; }
+      header p { font-size: 1.1rem; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>HBX Sports Performance</h1>
+    <p>Train Like a Champion. Perform Like One.</p>
+    <a href="#contact" class="cta">Book Your Session</a>
+  </header>
+
+  <section>
+    <h2 class="section-title">About HBX</h2>
+    <div class="about-box">
+      <h3>Coach Brandon Howard</h3>
+      <p>Founder of HBX Sports Performance, Coach Howard brings years of elite-level training experience, working with athletes from youth leagues to college prospects. His mission is to instill discipline, explosiveness, and a championship mindset in every athlete.</p>
+    </div>
+  </section>
+
+  <section>
+    <h2 class="section-title">Promo Video</h2>
+    <iframe class="video-embed" src="https://www.youtube.com/embed/kJKHezAke8I" allowfullscreen></iframe>
+  </section>
+
+  <section>
+    <h2 class="section-title">Our Programs</h2>
+    <div class="services">
+      <div class="service">
+        <h3>Speed & Agility</h3>
+        <p>Explosive movement drills, sprint mechanics, and performance tracking to unlock top speed and quickness.</p>
+      </div>
+      <div class="service">
+        <h3>Strength & Power</h3>
+        <p>Build functional strength with our athlete-first approach using progressive resistance and Olympic lifts.</p>
+      </div>
+      <div class="service">
+        <h3>Team Training</h3>
+        <p>Bring your whole squad. We tailor sessions to maximize cohesion, conditioning, and team accountability.</p>
+      </div>
+      <div class="service">
+        <h3>Off-Season Programs</h3>
+        <p>Stay game-ready year-round with intensive off-season development programs customized per sport.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2 class="section-title">Athlete Testimonials</h2>
+    <div class="testimonials">
+      <div class="testimonial">
+        <p>"HBX helped me go from average to elite. My confidence and conditioning are at another level."<br><strong>– Jordan R., High School DB</strong></p>
+      </div>
+      <div class="testimonial">
+        <p>"They knew exactly what I needed to prep for college combines. I hit a PR in every lift and shaved time on my 40."<br><strong>– Chris M., College Prospect</strong></p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2 class="section-title">Follow Us</h2>
+    <p>Check out our latest on Instagram:</p>
+    <p><a class="cta" href="https://www.instagram.com/hbxsports/" target="_blank">@hbxsports</a></p>
+  </section>
+
+  <section id="contact">
+    <h2 class="section-title">Ready to Level Up?</h2>
+    <p>Email us at <strong>train@hbxsportsperformance.com</strong></p>
+    <p>Call us at <strong>(443) 203-8203</strong></p>
+    <p>Visit us at <strong>1111 Benfield Blvd, Suite 250, Millersville, MD</strong></p>
+    <div class="map-container">
+      <iframe src="https://www.google.com/maps?q=1111+Benfield+Blvd,+Millersville,+MD&output=embed"></iframe>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 HBX Sports Performance. All rights reserved.
+  </footer>
+</body>
+</html>
